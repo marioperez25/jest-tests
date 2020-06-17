@@ -3,7 +3,5 @@ function add(a, b) {
   return a + b;
 }
 
-console.log('test comment');
-
 module.exports = add; 
  
