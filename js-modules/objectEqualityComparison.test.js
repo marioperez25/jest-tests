@@ -14,7 +14,10 @@ const myObj3 = {
     lastname: 'wick' 
 }
 
-test(
-    'equal objects return true', () => {
-        expect(objectEqualityComparison(myObj1,myObj2)).toBe(true);
-    })
+test('equal objects return true', () => {
+    expect(objectEqualityComparison(myObj1,myObj2)).toBe(true);
+})
+
+test('equal objects return true', () => {
+    expect(objectEqualityComparison(myObj1,myObj3)).toBe(false);
+})
