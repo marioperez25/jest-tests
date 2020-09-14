@@ -1,4 +1,4 @@
-import Person from './classConstructor'
+import Person from './Person'
 let person1 = new Person('Mario', 'Perez')
 test('can construct', ()=> {
     

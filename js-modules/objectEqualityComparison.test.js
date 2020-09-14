@@ -1,12 +1,12 @@
 const objectEqualityComparison = require('./objectEqualityComparison')
 const myObj1 = {
     name: 'john',
-    lastname: 'doe'
+    lastname: 'doe',
 }
 
 const myObj2 = {
     name: 'john',
-    lastname: 'doe'
+    lastname: 'doe',
 }
 
 const myObj3 = {
