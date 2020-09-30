@@ -4,6 +4,7 @@
     "jest": "^26.4.2"
   },
   "scripts": {
+    "data": "json-server --watch db.json",
     "test": "jest"
   }
 }
